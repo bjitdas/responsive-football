@@ -138,3 +138,29 @@ h2{
         }
         
     }
+
+    /* tablet-devices */
+
+    @media only screen and (min-width: 689px) and (max-width: 992px) {
+        .footer-section, .video-container, header, .container{
+            width: 100%;
+        }
+        .players{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .highlights, .top-section, .player{
+            flex-direction: column;
+            
+        }
+        .video{
+            margin-left: 25%;
+            justify-content: center;
+        }
+        .footer-section, .header-info{
+            justify-content: center;
+        }
+        .footer-section img{   
+           width: 60%;
+        }
+        
+    }
