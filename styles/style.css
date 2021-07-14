@@ -10,7 +10,6 @@ body{
 
 header{
     background-color:#2D25A0;
-    ;
     
 }
 h1{
@@ -30,8 +29,8 @@ h1{
    margin-bottom: 50px; 
 }
 .top-section img{
-    Width: 556.01px;
-    Height: 438px;
+    Width: 400px;
+    Height: 300px;
     
 }
 .top-section img:hover{
@@ -75,6 +74,7 @@ h3{
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
 }
 .thumbnail img{
     width: 300px;
@@ -91,6 +91,7 @@ h2{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 100px;
+    padding: 15px;
 }
 
 
@@ -110,3 +111,30 @@ h2{
 .footer-detail{
     text-align: center;
 }
+
+
+/*-----------------
+    Media Queries 
+    ----------------*/
+
+    /* Mobile Devices */
+
+    @media only screen and (max-width: 688px) {
+        .footer-section, .video-container, header, .container{
+            width: 100%;
+        }
+        .players{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .highlights, .top-section, .player{
+            flex-direction: column;
+        }
+        .header-info{
+            margin-left: 3%;
+        }
+        .footer-section img{
+           
+           width: 50%;
+        }
+        
+    }
