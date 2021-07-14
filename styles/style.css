@@ -14,6 +14,7 @@ header{
     
 }
 h1{
+    color: white;
     font-size: 64px;
     font-weight: bold;
     font-style: normal;
@@ -42,9 +43,10 @@ h1{
     text-decoration: none;
     background-color:#E02C6D ;
     padding: 10px 24px;
+    border-radius: 10px;
 }
-.fas-fa-arrow-right{
-    margin-left: 10%;
+.icon{
+    margin-left: 10px;
 }
 
 /* main-player-section */
@@ -62,6 +64,10 @@ h1{
     grid-column-gap: 30px;
     grid-row-gap: 27px;     
 }
+h3{
+    font-size: 28px;
+    font-weight: 700;
+}
 
 .player{
     width: 300px;
@@ -74,4 +80,21 @@ h1{
     width: 300px;
     height: 256px;
     border-radius: 10px;
+}
+
+
+/* footer-section-style */
+.footer-section{
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.footer-img{
+    margin-left: 30%;
+    justify-content: space-evenly;
+}
+.fab{
+    margin-left: 15px;
+}
+.footer-detail{
+    text-align: center;
 }
